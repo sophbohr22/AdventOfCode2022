@@ -35,7 +35,7 @@ public class DayThree {
 
     static char FindBadge(String elf_a, String elf_b, String elf_c) {
       // Could optimize this by having outer loop parse through 
-      // shortest string...
+      // git shortest string...
       for (int i = 0; i < elf_a.length(); i++) {
         if (elf_b.contains(Character.toString(elf_a.charAt(i))) 
             && elf_c.contains(Character.toString(elf_a.charAt(i)))) {
