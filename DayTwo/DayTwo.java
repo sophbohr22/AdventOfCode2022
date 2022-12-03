@@ -65,49 +65,6 @@ public class DayTwo {
                 round_score = 1;
               }
         }
-        // switch (round[0]) {
-        //   case "A":
-        //     // ROCK
-        //     if (round[1].equals("Y")) {
-        //         // i win
-        //         outcome_score = 6;
-        //     } else if(round[1].equals("X")) {
-        //         // draw
-        //         outcome_score = 3;
-        //     } else if(round[1].equals("Z")) {
-        //         // i lose
-        //         outcome_score = 0;
-        //     }
-        //     break;
-        //   case "B":
-        //     // PAPER
-        //     if (round[1].equals("Y")) {
-        //         // draw
-        //         outcome_score = 3;
-        //     } else if(round[1].equals("X")) {
-        //         // i lose
-        //         outcome_score = 0;
-        //     } else if(round[1].equals("Z")) {
-        //         // i win
-        //         outcome_score = 6;
-        //     }
-        //     break;
-        //   case "C":
-        //     // SCISSORS
-        //     if (round[1].equals("Y")) {
-        //         // i lose
-        //         outcome_score = 0;
-        //     } else if(round[1].equals("X")) {
-        //         // i win
-        //         outcome_score = 6;
-        //     } else if(round[1].equals("Z")) {
-        //         // draw
-        //         outcome_score = 3;
-        //     }
-        //     break;
-        //   default:
-        //     System.out.println("Didn't parse the play.");
-        // }
         total_score += round_score + outcome_score;
       }
       System.out.println("Total score: " + total_score);
