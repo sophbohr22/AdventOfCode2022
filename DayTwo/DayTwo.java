@@ -68,5 +68,6 @@ public class DayTwo {
         total_score += round_score + outcome_score;
       }
       System.out.println("Total score: " + total_score);
+      sc.close();
     }
   }
