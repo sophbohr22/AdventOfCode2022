@@ -1,3 +1,4 @@
+package DayOne;
 import java.io.File;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -16,7 +17,7 @@ public class DayOne {
     //
     // 5000
     // 6000
-    File file = new File("day-one-input.txt");
+    File file = new File("DayOne/day-one-input.txt");
     Scanner sc = new Scanner(file);
     
     int[] top = {0, 0, 0};
