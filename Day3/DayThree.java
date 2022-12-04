@@ -1,10 +1,10 @@
-package DayThree;
+package Day3;
 import java.io.File;
 import java.util.Scanner;
 
 public class DayThree {
     public static void main(String[] args) throws Exception {
-        File file = new File("DayThree/day-three-input.txt");
+        File file = new File("Day3/day-three-input.txt");
         Scanner sc = new Scanner(file);
         int priority_item_sum = 0;
         while (sc.hasNextLine()) {

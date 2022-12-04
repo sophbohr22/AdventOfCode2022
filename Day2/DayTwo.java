@@ -1,4 +1,4 @@
-package DayTwo;
+package Day2;
 
 import java.io.File;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ public class DayTwo {
 
       // What would your total score be if everything goes exactly 
       // according to your strategy guide?
-      File file = new File("DayTwo/day-two-input.txt");
+      File file = new File("Day2/day-two-input.txt");
       Scanner sc = new Scanner(file);
 
       int round_score = 0;
